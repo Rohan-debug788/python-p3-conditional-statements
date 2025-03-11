@@ -102,3 +102,4 @@ class TestCalculator:
         assert(calculator('a', 1, 2) == None)
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "Invalid operation!\n")
+        
